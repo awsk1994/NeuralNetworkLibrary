@@ -1,11 +1,12 @@
-# CS640_Artificial_Intelligence
-repo for ai hwk
+### AI PA1
 
-# TODOS
- - split up work: classification metrics, testing various parameters
+We are implementing a single hidden layer fully connected neural network in this assignment.
+Back-propagation algorithms are used to speed up gradient computation for NN.
 
-# Bonus:
- - research on activation functions: sigmoid, hyperbolic, ReLU, weird ReLU
- - mini-batch vs sgd vs all
+Dependencies: python3.6, numpy
 
-By Alex Wong, Shawn Lin and Rahul Suresh
+To train & test the model:
+```
+cd pa1/
+python main.py
+```
